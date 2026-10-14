@@ -17,4 +17,13 @@ pipeline{
             }
         }
     }
+
+    post{
+        success{
+            echo 'React App Built Successfully'
+        }
+        failure{
+            echo 'Build Failed'
+        }
+    }
 }
