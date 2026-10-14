@@ -30,7 +30,7 @@ function App() {
      <h1>Joke API</h1>
 
      <input
-      placeholder="Search a joke"
+      placeholder="Please Search a joke"
       value={search}
       onChange={e=>setSearch(e.target.value)}
       />
